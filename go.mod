@@ -1,4 +1,4 @@
-module gitee.com/zeevel/tinypb
+module github.com/zeevel/tinypb
 
 go 1.15
 
