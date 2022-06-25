@@ -7,6 +7,7 @@ type ArithService struct{}
 
 // Add addition
 func (this *ArithService) Add(args *ArithRequest, reply *ArithResponse) error {
+	// define your service ...
 	reply.C = args.A + args.B
 	return nil
 }
